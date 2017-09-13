@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KgJrGXyDtB9WO2pY4LVW+A==
+SHA1-Digest: XkECKymXb+5z4IKRxWrTIqt65aI=
+
+Name: icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1sEv38HZFJWYyNPD1G0ltg==
+SHA1-Digest: mFJGZJETGdaFXhSmdQoOWGZi1nY=
+
+Name: bootstrap.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9yjzxWFbKOSjZwO6YC+F1Q==
+SHA1-Digest: VfAD4TBydilfPCqg79a7Y0NTSpY=
+

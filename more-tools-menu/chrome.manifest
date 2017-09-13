@@ -1,0 +1,56 @@
+content  moretools             content/
+resource moretools             content/
+skin     moretools classic/1.0 skin/
+
+# Firefox main window
+overlay chrome://browser/content/browser.xul                               chrome://moretools/content/moretools-overlay.xul
+
+# Thunderbird main window and SeaMonkey mail window
+overlay chrome://messenger/content/messenger.xul                           chrome://moretools/content/moretools-overlay.xul
+
+# SeaMonkey browser
+overlay chrome://navigator/content/navigator.xul                           chrome://moretools/content/moretools-overlay.xul
+
+# Thunderbird and SeaMonkey mail composer
+overlay chrome://messenger/content/messengercompose/messengercompose.xul   chrome://moretools/content/moretools-overlay.xul
+
+# Thunderbird and SeaMonkey address book
+overlay chrome://messenger/content/addressbook/addressbook.xul             chrome://moretools/content/moretools-overlay.xul
+
+# SeaMonkey HTML editor
+overlay chrome://editor/content/editor.xul                                 chrome://moretools/content/moretools-overlay.xul
+
+override chrome://moretools/content/options.xul chrome://moretools/content/optionsLegacy.xul application={ec8030f7-c20a-464f-9b0e-13a3a9e97384} appversion<=6.*
+override chrome://moretools/content/options.xul chrome://moretools/content/optionsLegacy.xul application={3550f703-e582-4d05-9a08-453d09bdfdc6} appversion<=6.*
+override chrome://moretools/content/options.xul chrome://moretools/content/optionsLegacy.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} appversion<=2.3.*
+
+locale moretools ar    locale/ar/
+locale moretools ca-AD locale/ca-AD/
+locale moretools da    locale/da/
+locale moretools de    locale/de/
+locale moretools en-US locale/en-US/
+locale moretools es-ES locale/es-ES/
+locale moretools fa-IR locale/fa-IR/
+locale moretools fi    locale/fi/
+locale moretools fr    locale/fr/
+locale moretools he-IL locale/he-IL/
+locale moretools hr-HR locale/hr-HR/
+locale moretools hu-HU locale/hu-HU/
+locale moretools it    locale/it/
+locale moretools ja-JP locale/ja-JP/
+locale moretools ko-KR locale/ko-KR/
+locale moretools lt-LT locale/lt-LT/
+locale moretools nb-NO locale/nb-NO/
+locale moretools nl    locale/nl/
+locale moretools pl    locale/pl/
+locale moretools pt-BR locale/pt-BR/
+locale moretools pt-PT locale/pt-PT/
+locale moretools ro-RO locale/ro-RO/
+locale moretools ru-RU locale/ru-RU/
+locale moretools sk-SK locale/sk-SK/
+locale moretools sr    locale/sr/
+locale moretools sv-SE locale/sv-SE/
+locale moretools tr    locale/tr/
+locale moretools uk-UA locale/uk-UA/
+locale moretools zh-CN locale/zh-CN/
+locale moretools zh-TW locale/zh-TW/

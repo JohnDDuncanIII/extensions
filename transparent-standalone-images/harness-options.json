@@ -1,0 +1,50 @@
+{
+ "check_memory": false,
+ "enable_e10s": false,
+ "is-sdk-bundled": false,
+ "jetpackID": "jid0-ezUl0hF1SPM9hLO5BMBkNoblB8s@jetpack",
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js",
+ "main": "main",
+ "mainPath": "transparent-standalone-images/main",
+ "manifest": {
+  "transparent-standalone-images/main": {
+   "docsSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "jsSHA256": "0d348cd6c3ae3a02c4d7e4c28a64470e63fea1b60fd159160c9f2b3b714f9f39",
+   "moduleName": "main",
+   "packageName": "transparent-standalone-images",
+   "requirements": {
+    "sdk/system/events": "sdk/system/events"
+   },
+   "sectionName": "lib"
+  }
+ },
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.",
+   "keywords": [
+    "javascript",
+    "engine",
+    "addon",
+    "extension",
+    "xulrunner",
+    "firefox",
+    "browser"
+   ],
+   "license": "MPL 2.0",
+   "name": "addon-sdk"
+  },
+  "transparent-standalone-images": {
+   "description": "a basic add-on",
+   "license": "MPL 2.0",
+   "main": "main",
+   "name": "transparent-standalone-images",
+   "version": "0.1"
+  }
+ },
+ "name": "transparent-standalone-images",
+ "parseable": false,
+ "preferencesBranch": "jid0-ezUl0hF1SPM9hLO5BMBkNoblB8s@jetpack",
+ "sdkVersion": "1.16",
+ "staticArgs": {},
+ "verbose": false
+}

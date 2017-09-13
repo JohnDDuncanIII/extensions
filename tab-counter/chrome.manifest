@@ -1,0 +1,5 @@
+content tabcount chrome/content/
+overlay	chrome://browser/content/browser.xul chrome://tabcount/content/overlay.xul application={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+overlay chrome://navigator/content/navigator.xul chrome://tabcount/content/overlay.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+locale tabcount en-US chrome/locale/en-US/
+skin tabcount classic chrome/skin/

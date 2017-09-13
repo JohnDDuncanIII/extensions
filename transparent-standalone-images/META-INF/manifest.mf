@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: d5UJMTlTCcpEUZ2qrEks/Q==
+SHA1-Digest: mUwTCVP3WvA33PoNsweDhmLwINI=
+
+Name: bootstrap.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0hdvjpcienJKfdEX5vjnCg==
+SHA1-Digest: WNe4VqdqthuWCDdDUyvztgC/r8E=
+
+Name: harness-options.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BioatqRqGz32fIZWwLcxzw==
+SHA1-Digest: j+rrAvP0r6bshQ3cQpNNSoO9ov8=
+
+Name: locales.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p3Qh60/6wDH/UunTuTWZjQ==
+SHA1-Digest: DBci+JD/520hUnFSB3zB1xoBE9g=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1B2M2Y8AsgTpgAmY7PhCfg==
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: resources/transparent-standalone-images/lib/main.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GOjoO/4hHwELPWOzAP7oew==
+SHA1-Digest: KrlRD6A+zIkH2rLcucC5GsRybFI=
+

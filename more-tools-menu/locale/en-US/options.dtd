@@ -1,0 +1,9 @@
+<!ENTITY moretools.optionsWindow.title "More Tool Menu Options">
+<!ENTITY moretools.showWhenEmpty.title "Show when empty">
+<!ENTITY moretools.showWhenEmpty.desc "Sould More Tools menu be displayed even if it has no items?">
+<!ENTITY moretools.sortItems.title "Sort items">
+<!ENTITY moretools.sortItems.desc "Should the items in More Tools menu be displayed in alphabetical order?">
+<!ENTITY moretools.toolsToKeep.title "Keep in Tools menu">
+<!ENTITY moretools.toolsToKeep.desc "These items are created by extensions, but they must be kept in Tools menu.">
+<!ENTITY moretools.toolsToMove.title "Move to More Tools menu">
+<!ENTITY moretools.toolsToMove.desc "These items are provided by the application, but they must be moved to More Tools menu.">

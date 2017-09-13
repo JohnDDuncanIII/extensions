@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting pref="extensions.bonardonet.expire-history-by-days.days"
+           type="integer"
+           title="Expire visits older than these days (0: do nothing)"/>
+  <setting pref="extensions.bonardonet.expire-history-by-days.disable_expiration"
+           type="bool"
+           title="Disable Places expiration (May hurt performances)"/>
+</vbox>

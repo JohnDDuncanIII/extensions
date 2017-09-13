@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE options SYSTEM "chrome://moretools/locale/options.dtd">
+
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting
+    pref="extensions.moretools.showWhenEmpty"
+    title="&moretools.showWhenEmpty.title;"
+    desc="&moretools.showWhenEmpty.desc;"
+    type="bool"
+  />
+
+  <setting
+    pref="extensions.moretools.sortItems"
+    title="&moretools.sortItems.title;"
+    desc="&moretools.sortItems.desc;"
+    type="bool"
+  />
+
+  <setting
+    pref="extensions.moretools.toolsToKeep"
+    title="&moretools.toolsToKeep.title;"
+    desc="&moretools.toolsToKeep.desc;"
+    type="string"
+  />
+
+  <setting
+    pref="extensions.moretools.toolsToMove"
+    title="&moretools.toolsToMove.title;"
+    desc="&moretools.toolsToMove.desc;"
+    type="string"
+  />
+</vbox>

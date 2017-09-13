@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: R0q29oHKtmV8oYENtdAe/Q==
+SHA1-Digest: ygO7NawWl0Pajzllh4HG2EhJE/I=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5MfZjf+GiRndy1m3AhZJgw==
+SHA1-Digest: EtZ/wI4myZny1/mYFYJ2aR+fWAQ=
+
+Name: icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: trgcrxPJ06BdU1/a/oOE9A==
+SHA1-Digest: BrlrWg8MfOc2sydyaEm5rP3d72w=
+
+Name: chrome/content/options.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Kw3wLUdn/GnH5RKdcrP6RQ==
+SHA1-Digest: 83l6JXt3R4olfqZejHuaiMOrbw4=
+
+Name: chrome/content/overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JtAaZvI9DffeNH+XH8gVfQ==
+SHA1-Digest: DBXE6Kq8n7SaBVnaSXNRBsd0eG4=
+
+Name: chrome/content/overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kL6wOE2qlvWZ07JNG6rRow==
+SHA1-Digest: wvA1xgBBrP5cgRndQYvoCkvmQqg=
+
+Name: chrome/locale/en-US/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fqmpiuM+HEzxmPYWuBE0+A==
+SHA1-Digest: fTNFH2m0SYTq+Encx6bgUebVzXE=
+
+Name: chrome/skin/statusbarimage.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0VV65pycxO4hdtSQ+GK8/A==
+SHA1-Digest: x56iMvRZRN9BkMfwVY3XLY0HJGw=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6Op3fD4YJRWjSmTa65wJlg==
+SHA1-Digest: N5s+42yPqkycerAutz5HU1XymVI=
+

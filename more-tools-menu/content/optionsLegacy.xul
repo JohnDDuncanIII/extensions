@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE options SYSTEM "chrome://moretools/locale/options.dtd">
+
+<prefwindow
+  id="optionsWindow"
+  title="&moretools.optionsWindow.title;"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+>
+  <script type='application/x-javascript' src='options.js'></script>
+
+  <prefpane onpaneload="options.load();">
+    <preferences>
+      <preference
+        id="prefShowWhenEmpty"
+        name="extensions.moretools.showWhenEmpty"
+        type="bool"
+      />
+
+      <preference
+        id="prefSortItems"
+        name="extensions.moretools.sortItems"
+        type="bool"
+      />
+
+      <preference
+        id="prefToolsToKeep"
+        name="extensions.moretools.toolsToKeep"
+        type="string"
+      />
+
+      <preference
+        id="prefToolsToMove"
+        name="extensions.moretools.toolsToMove"
+        type="string"
+      />
+    </preferences>
+
+    <hbox align="center">
+      <checkbox
+        preference="prefShowWhenEmpty"
+        id="showWhenEmpty"
+        label="&moretools.showWhenEmpty.title;"
+        tooltiptext="&moretools.showWhenEmpty.desc;"
+      />
+    </hbox>
+
+    <hbox align="center">
+      <checkbox
+        preference="prefSortItems"
+        id="sortItems"
+        label="&moretools.sortItems.title;"
+        tooltiptext="&moretools.sortItems.desc;"
+      />
+    </hbox>
+
+    <label
+      control="toolsToKeep"
+      value="&moretools.toolsToKeep.title;"
+      tooltiptext="&moretools.toolsToKeep.desc;"
+    />
+    <richlistbox
+      id="toolsToKeep"
+      height="100"
+      tooltiptext="&moretools.toolsToKeep.desc;"
+    >
+    </richlistbox>
+
+    <label
+      control="toolsToMove"
+      value="&moretools.toolsToMove.title;"
+      tooltiptext="&moretools.toolsToMove.desc;"
+    />
+    <richlistbox
+      id="toolsToMove"
+      height="100"
+      tooltiptext="&moretools.toolsToMove.desc;"
+    >
+    </richlistbox>
+  </prefpane>
+</prefwindow>

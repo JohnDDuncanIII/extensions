@@ -1,0 +1,12 @@
+<!ENTITY removeDefaultSheet "Remove default stylesheet">
+<!ENTITY backgroundColor "Custom page background color">
+<!ENTITY colorExample "e.g. #777, gray">
+<!ENTITY imageBackgroundColor "Custom image background color">
+<!ENTITY imageBackgroundHelp "(used behind transparent images)">
+<!ENTITY errorColor "Custom error text color">
+<!ENTITY centerImage "Center image">
+<!ENTITY noMargin "No margin">
+<!ENTITY checkerboard "Checkerboard background">
+<!ENTITY hoverBorder "Border on hover">
+<!ENTITY help.label "Help">
+<!ENTITY help.button "Help">

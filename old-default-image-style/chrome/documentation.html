@@ -1,0 +1,377 @@
+<html>
+<head>
+<title>Old Default Image Style</title>
+<style>
+  body  { max-width: 950px; }
+  .dark { color: white; }
+  h4    { margin: 0; }
+  ul    { margin-top: 0; }
+
+  table.colors td {
+    width: 140px;
+    text-align: center;
+    font-family: monospace;
+  }
+
+  code {
+    background-color: hsl(0, 0%, 95%);
+    white-space: nowrap;
+  }
+
+  dd p { margin: 0; }
+  dd p:not(:first-child) { margin-top: 0.5em; }
+
+  .minorversion { font-weight: bold; }
+</style>
+</head>
+<body>
+<h1 id="summary">Summary</h1>
+<p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=376997">Bug 376997</a> added a stylesheet to top-level images that forces the background to black and centers the image. This extension removes the stylesheet, returning the background to your configured default and removing the centering.</p>
+<p>You can also use it to set a custom background, to turn on the image centering or zero-margin styles individually, or to set a checkerboard background.</p>
+<p>Lastly, it sets classes on the &lt;body&gt; and &lt;img&gt; tags of the image document &ndash; <code>olddefaultimagestyle-body</code> on the body and <code>olddefaultimagestyle-img</code> on the img &ndash; which you can use to target your own CSS using Stylish or <code>userChrome.css</code>.
+
+<h1 id="settings">Settings</h1>
+<dl>
+  <dt>Custom page background color</dt>
+  <dd>
+    <p>
+      Sets the color of the page background. The syntax is whatever is accepted by the
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background">CSS background: property</a>;
+      plain colors are documented
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Values">here</a>,
+      and some examples are given in the <a href="#colorexamples">Color examples</a> section below.
+    </p>
+    <p>
+      Emptying this option will use the default background color specified in
+      <code>Firefox Preferences &gt; Content &gt; Colors &gt; Text and Background</code> (usually white).
+      The string "checkerboard" is also accepted here, and will be replaced with a checkerboard background.
+    </p>
+    <p>
+      If you're using Pale Moon, it has a page background color preference that overrides this setting.
+      You can either append "!important" (e.g. <code>white !important</code>), or you can just use the
+      Pale Moon setting
+      (<a href="about:config?filter=browser.display.standalone_images.background_color"><tt>browser.display.standalone_images.background_color</tt></a>)
+      instead.
+    </p>
+  </dd>
+
+  <dt>Custom image background color</dt>
+  <dd>
+    <p>
+      Sets the background color used behind transparent images. Defaults to "white". Emptying this option
+      will make the image background transparent, showing the page background through instead.
+    <p>
+    <p>As above, the string "checkerboard" is accepted here.</p>
+  </dd>
+
+  <dt>Custom error text color</dt>
+  <dd>
+    Sets the color used for the error message text shown if an image fails to load. The syntax is whatever is
+    accepted by the CSS color: property.
+  </dd>
+
+  <dt>Center image</dt>
+  <dd>
+    Centers the image.
+  </dd>
+
+  <dt>No margin</dt>
+  <dd>
+    Removes the margins around the image.
+  </dd>
+
+  <dt>Checkerboard background</dt>
+  <dd>
+    Show a checkerboard background on the page. (This option might interact badly with some custom page
+    background settings. You can use "checkerboard" in the custom page/image color settings as an alternative.)
+  </dd>
+</dl>
+
+<h3 id="colorexamples">Color examples</h3>
+<h4>Shades of gray</h4>
+<table class="colors">
+  <tr>
+    <td style="background: #fff">#fff</td>
+    <td style="background: #ffffff">#ffffff</td>
+    <td style="background: white">white</td>
+    <td style="background: rgb(255,255,255)">rgb(255,255,255)</td>
+    <td style="background: hsl(0,0%,100%)">hsl(0,0%,100%)</td>
+  </tr>
+  <tr>
+    <td style="background: #ddd">#ddd</td>
+    <td style="background: #dddddd">#dddddd</td>
+    <td style="background: gainsboro">gainsboro</td>
+    <td style="background: rgb(224,224,224)">rgb(224,224,224)</td>
+    <td style="background: hsl(0,0%,88%)">hsl(0,0%,88%)</td>
+  </tr>
+  <tr>
+    <td style="background: #bbb">#bbb</td>
+    <td style="background: #bbbbbb">#bbbbbb</td>
+    <td style="background: silver">silver</td>
+    <td style="background: rgb(192,192,192)">rgb(192,192,192)</td>
+    <td style="background: hsl(0,0%,75%)">hsl(0,0%,75%)</td>
+  </tr>
+  <tr>
+    <td style="background: #999">#999</td>
+    <td style="background: #999999">#999999</td>
+    <td style="background: #9c9c9c">-</td>
+    <td style="background: rgb(160,160,160)">rgb(160,160,160)</td>
+    <td style="background: hsl(0,0%,63%)">hsl(0,0%,63%)</td>
+  </tr>
+  <tr>
+    <td style="background: #888" class="dark">#888</td>
+    <td style="background: #888888" class="dark">#888888</td>
+    <td style="background: gray" class="dark">gray</td>
+    <td style="background: rgb(128,128,128)" class="dark">rgb(128,128,128)</td>
+    <td style="background: hsl(0,0%,50%)" class="dark">hsl(0,0%,50%)</td>
+  </tr>
+  <tr>
+    <td style="background: #666" class="dark">#666</td>
+    <td style="background: #666666" class="dark">#666666</td>
+    <td style="background: dimgray" class="dark">dimgray</td>
+    <td style="background: rgb(96,96,96)" class="dark">rgb(96,96,96)</td>
+    <td style="background: hsl(0,0%,37%)" class="dark">hsl(0,0%,37%)</td>
+  </tr>
+  <tr>
+    <td style="background: #444" class="dark">#444</td>
+    <td style="background: #444444" class="dark">#444444</td>
+    <td style="background: #424242" class="dark">-</td>
+    <td style="background: rgb(64,64,64)" class="dark">rgb(64,64,64)</td>
+    <td style="background: hsl(0,0%,25%)" class="dark">hsl(0,0%,25%)</td>
+  </tr>
+  <tr>
+    <td style="background: #222" class="dark">#222</td>
+    <td style="background: #222222" class="dark">#222222</td>
+    <td style="background: #212121" class="dark">-</td>
+    <td style="background: rgb(32,32,32)" class="dark">rgb(32,32,32)</td>
+    <td style="background: hsl(0,0%,12%)" class="dark">hsl(0,0%,12%)</td>
+  </tr>
+  <tr>
+    <td style="background: #000" class="dark">#000</td>
+    <td style="background: #000000" class="dark">#000000</td>
+    <td style="background: black" class="dark">black</td>
+    <td style="background: rgb(0,0,0)" class="dark">rgb(0,0,0)</td>
+    <td style="background: hsl(0,0%,0%)" class="dark">hsl(0,0%,0%)</td>
+  </tr>
+
+</table>
+
+<h4>hsl()-based colors</h4>
+<table class="colors">
+  <tr>
+    <td style="background: hsl(0,65%,97%)">hsl(0,65%,97%)</td>
+    <td style="background: hsl(60,65%,97%)">hsl(60,65%,97%)</td>
+    <td style="background: hsl(120,65%,97%)">hsl(120,65%,97%)</td>
+    <td style="background: hsl(180,65%,97%)">hsl(180,65%,97%)</td>
+    <td style="background: hsl(240,65%,97%)">hsl(240,65%,97%)</td>
+    <td style="background: hsl(300,65%,97%)">hsl(300,65%,97%)</td>
+  </tr>
+  <tr>
+    <td style="background: hsl(0,65%,88%)">hsl(0,65%,88%)</td>
+    <td style="background: hsl(60,65%,88%)">hsl(60,65%,88%)</td>
+    <td style="background: hsl(120,65%,88%)">hsl(120,65%,88%)</td>
+    <td style="background: hsl(180,65%,88%)">hsl(180,65%,88%)</td>
+    <td style="background: hsl(240,65%,88%)">hsl(240,65%,88%)</td>
+    <td style="background: hsl(300,65%,88%)">hsl(300,65%,88%)</td>
+  </tr>
+  <tr>
+    <td style="background: hsl(0,65%,75%)">hsl(0,65%,75%)</td>
+    <td style="background: hsl(60,65%,75%)">hsl(60,65%,75%)</td>
+    <td style="background: hsl(120,65%,75%)">hsl(120,65%,75%)</td>
+    <td style="background: hsl(180,65%,75%)">hsl(180,65%,75%)</td>
+    <td style="background: hsl(240,65%,75%)">hsl(240,65%,75%)</td>
+    <td style="background: hsl(300,65%,75%)">hsl(300,65%,75%)</td>
+  </tr>
+  <tr>
+    <td style="background: hsl(0,65%,63%)" class="dark">hsl(0,65%,63%)</td>
+    <td style="background: hsl(60,65%,63%)">hsl(60,65%,63%)</td>
+    <td style="background: hsl(120,65%,63%)">hsl(120,65%,63%)</td>
+    <td style="background: hsl(180,65%,63%)">hsl(180,65%,63%)</td>
+    <td style="background: hsl(240,65%,63%)" class="dark">hsl(240,65%,63%)</td>
+    <td style="background: hsl(300,65%,63%)">hsl(300,65%,63%)</td>
+  </tr>
+  <tr>
+    <td style="background: hsl(0,65%,50%)" class="dark">hsl(0,65%,50%)</td>
+    <td style="background: hsl(60,65%,50%)">hsl(60,65%,50%)</td>
+    <td style="background: hsl(120,65%,50%)" class="dark">hsl(120,65%,50%)</td>
+    <td style="background: hsl(180,65%,50%)">hsl(180,65%,50%)</td>
+    <td style="background: hsl(240,65%,50%)" class="dark">hsl(240,65%,50%)</td>
+    <td style="background: hsl(300,65%,50%)" class="dark">hsl(300,65%,50%)</td>
+  </tr>
+  <tr>
+    <td style="background: hsl(0,65%,37%)" class="dark">hsl(0,65%,37%)</td>
+    <td style="background: hsl(60,65%,37%)" class="dark">hsl(60,65%,37%)</td>
+    <td style="background: hsl(120,65%,37%)" class="dark">hsl(120,65%,37%)</td>
+    <td style="background: hsl(180,65%,37%)" class="dark">hsl(180,65%,37%)</td>
+    <td style="background: hsl(240,65%,37%)" class="dark">hsl(240,65%,37%)</td>
+    <td style="background: hsl(300,65%,37%)" class="dark">hsl(300,65%,37%)</td>
+  </tr>
+  <tr>
+    <td style="background: hsl(0,65%,25%)" class="dark">hsl(0,65%,25%)</td>
+    <td style="background: hsl(60,65%,25%)" class="dark">hsl(60,65%,25%)</td>
+    <td style="background: hsl(120,65%,25%)" class="dark">hsl(120,65%,25%)</td>
+    <td style="background: hsl(180,65%,25%)" class="dark">hsl(180,65%,25%)</td>
+    <td style="background: hsl(240,65%,25%)" class="dark">hsl(240,65%,25%)</td>
+    <td style="background: hsl(300,65%,25%)" class="dark">hsl(300,65%,25%)</td>
+  </tr>
+</table>
+
+<h4>Named colors</h4>
+<table class="colors">
+  <tr>
+    <td style="background: darkred" class="dark">darkred</td>
+    <td style="background: red" class="dark">red</td>
+    <td style="background: tomato">tomato</td>
+    <td style="background: lightpink">lightpink</td>
+    <td style="background: snow">snow</td>
+  </tr>
+  <tr>
+    <td style="background: darkgoldenrod" class="dark">darkgoldenrod</td>
+    <td style="background: orange">orange</td>
+    <td style="background: gold">gold</td>
+    <td style="background: lemonchiffon">lemonchiffon</td>
+    <td style="background: floralwhite">floralwhite</td>
+  </tr>
+  <tr>
+    <td style="background: darkgreen" class="dark">darkgreen</td>
+    <td style="background: green" class="dark">green</td>
+    <td style="background: lime">lime</td>
+    <td style="background: palegreen">palegreen</td>
+    <td style="background: honeydew">honeydew</td>
+  </tr>
+  <tr>
+    <td style="background: darkcyan" class="dark">darkcyan</td>
+    <td style="background: darkturquoise" class="dark">darkturquoise</td>
+    <td style="background: cyan">cyan</td>
+    <td style="background: paleturquoise">paleturquoise</td>
+    <td style="background: azure">azure</td>
+  </tr>
+  <tr>
+    <td style="background: darkblue" class="dark">darkblue</td>
+    <td style="background: blue" class="dark">blue</td>
+    <td style="background: dodgerblue" class="dark">dodgerblue</td>
+    <td style="background: lightblue">lightblue</td>
+    <td style="background: ghostwhite">ghostwhite</td>
+  </tr>
+  <tr>
+    <td style="background: darkmagenta" class="dark">darkmagenta</td>
+    <td style="background: magenta" class="dark">magenta</td>
+    <td style="background: violet">violet</td>
+    <td style="background: thistle">thistle</td>
+    <td style="background: lavenderblush">lavenderblush</td>
+  </tr>
+  <tr>
+    <td style="background: black" class="dark">black</td>
+    <td style="background: gray" class="dark">gray</td>
+    <td style="background: silver">silver</td>
+    <td style="background: gainsboro">gainsboro</td>
+    <td style="background: whitesmoke">whitesmoke</td>
+  </tr>
+</table>
+
+<h4>Non-colors</h4>
+<ul>
+  <li>
+    url(...) &ndash; data: URIs, or HTTP links. You probably don't want to use a remote server
+    for this, but it will work.
+  </li>
+  <li>
+    linear-gradient(...) and friends &ndash; these do work, but it is tricky to get them to look nice,
+    particularly when the viewport is scrollable. Also note that turning on both "Center image" and "No
+    margin" will cause the gradient to disappear (because gradients have no intrinsic size, and turning
+    both of those options on means that there is nothing else giving the body a size.)
+  </li>
+  <li>
+    "checkerboard" &ndash; this will be replaced with
+    <a href="data:image/gif;base64,R0lGODlhCgAKAIABAN3d3f///yH5BAEKAAEALAAAAAAKAAoAAAIRjA2Zhwoc3GMSykqd1VltzxQAOw==">
+      this image</a>.
+  </li>
+</ul>
+
+
+<h1 id="unsupportedfeatures">Unsupported features</h1>
+There are a few unsupported features available. They are not usually tested and may be broken or removed in
+future versions.
+
+<dl>
+  <dt>extensions.olddefaultimagestyle.checkerboardCSS</dt>
+  <dd>
+    Enables an alternate, CSS-based implementation of the "Checkerboard background" setting. It is rather
+    slow, but the advantage is that you can change the color and size of the squares without generating a
+    new background image.
+  </dd>
+  <dt>extensions.olddefaultimagestyle.checkerboardCSSColor</dt>
+    <dd>Color of the squares in the CSS-based checkerboard background implementation.</dd>
+  <dt>extensions.olddefaultimagestyle.checkerboardCSSSize</dt>
+    <dd>Size of the squares in the CSS-based checkerboard background implementation.</dd>
+  <dt>extensions.olddefaultimagestyle.hoverBorder</dt>
+    <dd>Show a 1px dashed border around the image on hover. Interacts badly with the "No margin" option.</dd>
+  <dt>CSS injection</dt>
+  <dd>
+    You can, if you are feeling silly, inject arbitrary CSS into the stylesheet by setting "Custom error text
+    color" to something like <code>;} img { display: none; }</code>. You probably want to use Stylish and the
+    classes set on the body and image instead.
+  </dd>
+</dl>
+
+<h1 id="changelog">Changelog</h1>
+<h2>3.0.x</h2>
+<ul>
+<li>Override Firefox's built-in image resizing. This fixes the issues with images close to the viewport size not resizing when the page has margins.
+<li>Add option to change the background of the image itself separately from the page (useful for transparent images on dark backgrounds, or to make the background a checkerboard). Defaults to "white" unless you're upgrading from a previous version and had the "Checkerboard background" option turned on, in which case it defaults to transparent.
+<li>Support using the string "checkerboard" in page/image backgrounds to get a checkerboard background.
+<li>Fix for breakage starting with 2013-07-12 Nightly builds, caused by <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=885177">Bug 885117</a>.
+<li>Add a documentation page.
+<li><span class="minorversion">3.0.3</span>: Workaround for ODIS 3.0.2 hanging on non-English locales.
+<li><span class="minorversion">3.0.4</span>: Proper fix for hangs.
+<li><span class="minorversion">3.0.4</span>: Make the Help button work in Seamonkey.
+<li><span class="minorversion">3.0.4</span>: Workaround for images in frames being resized to 0x0px.
+<li><span class="minorversion">3.0.5</span>: Fix for hangs with Greek locale, or when displaying an image with double spaces in the filename.
+<li><span class="minorversion">3.0.5</span>: Fix for Firefox 26 compatibility (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=677912">bug 677912</a>).
+<li><span class="minorversion">3.0.6</span>: Don't hang if the image filename begins with a space.
+</ul>
+
+<h2>2.2.x</h2>
+<ul>
+<li>Use "background" CSS property instead of "background-color", to make it easier to specify backgrounds that aren't pure colors.</li>
+<li>Add "px" to the maxWidth/maxHeight values. This apparently became required with the 2012-07-18 Nightly build.</li>
+<li><span class="minorversion">2.2.1</span>: Fix for breakage on Firefox 18.0 and above, caused by <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=793366">Bug 793366</a>.</li>
+</ul>
+
+<h2>2.1</h2>
+<ul>
+<li>Fixed issue with styles not being applied to some images (those in new tabs opened as a result of left-clicking on a link to an image on the same host that uses target="_blank").
+</ul>
+
+<h2>2.0</h2>
+No changes from 2.0beta1.
+
+<h2>2.0beta1</h2>
+<ul>
+<li>Style changes are applied to images in View Source windows too.
+<li>"No margin" option.
+<li>Checkerboard background option.
+<li>Ability to customize the text color used for error messages.
+<li>Preference changes are applied immediately to all tabs.
+<li>Apply/unapply styles on extension load/unload.
+<li>Port <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=713383">Bug 713383</a> - Directly viewed images should be printed with a transparent background on the body.
+<li>Handle <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=717143">Bug 717143</a> by overriding image sizes set by the the built-in resizer.
+<li>Handle <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=713487">Bug 713487</a> by removing the new sheet too.
+<li>Apply CSS classes to the image document body and image, for easier targeting with Stylish.
+</ul>
+
+Known bugs:
+<ul>
+<li>Style changes aren't applied to the new tab when left-clicking links to images on the same domain that have target="_blank".
+<li>Image resizing is slightly off for images near to the screen width when using borders on Fx13+, because image resizing still mostly uses the built-in image resizer code, which comes to the conclusion that the image shouldn't be resized. I intend to fix this by completely overriding the built-in resizer.
+<li>If you have nglayout.debug.disable_xul_cache set to true, going back/forward to an image might restore the original background color (but, oddly, not the image centering.) You can use "white !important" for the background color as a workaround.
+<li>I haven't seen any crashes recently; hopefully that's because the problem has been fixed.
+</ul>
+
+Firefox 8.0-10.0 support is dropped in this release, due to <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=185236">Bug 185236</a> and more importantly <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=678465">Bug 678465</a>.
+
+<h2>1.0</h2>
+First release.
+
+</body>
+</html>

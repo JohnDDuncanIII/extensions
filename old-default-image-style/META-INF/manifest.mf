@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JZEUaDKehO692cwLjjmSWg==
+SHA1-Digest: hvUcVc6FapxHGDkwKU2B+K2fJBQ=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nnJUmH2Fednl6xPfPQhBQg==
+SHA1-Digest: N4tNh9xUW5hD26sZkBAqvFaZ1p8=
+
+Name: bootstrap.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tr0plpLl+SS0q4+4kghIBg==
+SHA1-Digest: 2Q+jfw2N1NB7Sl9hxyNkZURtGgY=
+
+Name: options.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JRm+cR/90TE76qmCcxZRfg==
+SHA1-Digest: fcbQyORht3PlSv3vZ1e1DsUwhn4=
+
+Name: chrome/documentation.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: a+eUVUBhUHbqdNKZw/AtKQ==
+SHA1-Digest: dYavEMI9wRabFmu9v/jekzgEvMc=
+
+Name: chrome/modules/preferences.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QrtWBYKx4ZaNM8tIvdAUuw==
+SHA1-Digest: qSwGEYu4xmaENO3cHZB4HC0ARQg=
+
+Name: chrome/modules/resizer.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3C16oTZJsK+3eLpP+94vaA==
+SHA1-Digest: dMlp2nZ4jLtwZWIZEeonCRP+jOU=
+
+Name: chrome/modules/util.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pLHjy0U5FuDCK6uOpMzgdQ==
+SHA1-Digest: 9xepakdOA7jw/yBIFm2YV8GVtys=
+
+Name: chrome/modules/watchwindows.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eABbLt/r0njErE/ainc0LA==
+SHA1-Digest: 3Y2/J571PpAiCKotNoBERkSDJ4U=
+
+Name: chrome/test/test.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2c3YxD62g97gkVoIiSgZew==
+SHA1-Digest: RqS36EwrP49JYqJB9P3HwVuB5mY=
+
+Name: locale/en-GB/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q5yRcrf/b7acZLTnf5r2jA==
+SHA1-Digest: Ve9GhjKNCq3AEiB1J1Zr0C2cgIQ=
+
+Name: locale/en-US/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Nc703cX+fnVmLyJmAODhpg==
+SHA1-Digest: bbI2PZnHw3mIT4lX/jim7weEVE4=
+

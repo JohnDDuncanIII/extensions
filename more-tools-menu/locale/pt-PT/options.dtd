@@ -1,0 +1,9 @@
+<!ENTITY moretools.optionsWindow.title "Opções do More Tool Menu">
+<!ENTITY moretools.showWhenEmpty.title "Mostrar quando vazio">
+<!ENTITY moretools.showWhenEmpty.desc "Mostrar menu Mais Ferramentas mesmo se não houver items?">
+<!ENTITY moretools.sortItems.title "Ordernar itens">
+<!ENTITY moretools.sortItems.desc "Mostrar em ordem alfabética os itens no menu Mais Ferramentas?">
+<!ENTITY moretools.toolsToKeep.title "Manter no menu Ferramentas">
+<!ENTITY moretools.toolsToKeep.desc "Estes itens são criados por extensões, mas devem ser mantidos no menu Ferramentas.">
+<!ENTITY moretools.toolsToMove.title "Mover para o menu Mais Ferramentas">
+<!ENTITY moretools.toolsToMove.desc "Estes itens são criados pela aplicação, mas devem ser movidos para o menu Mais Ferramentas.">

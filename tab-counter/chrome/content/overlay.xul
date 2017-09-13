@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<overlay id="tabcount-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://tabcount/content/overlay.js"/>
+<!--
+* the statusbar item
+-->
+<statusbar id="status-bar">
+	<!--
+	 * count onclick
+	 * open properties window on right click
+	-->
+  <statusbarpanel 
+   onclick="tabcc.count();" 
+   oncontextmenu="window.openDialog('chrome://tabcount/content/options.xul', ' ', 'chrome,toolbar,centerscreen'); event.preventDefault();">
+    <image id="tabcounterstatusbarimage" src="chrome://tabcount/skin/statusbarimage.png"/>
+    <label id="grtabcount" value="?"/>
+  </statusbarpanel>
+</statusbar>
+</overlay>

@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+
+<!DOCTYPE overlay SYSTEM "chrome://moretools/locale/overlay.dtd">
+
+<overlay
+  id='moretools-overlay'
+  xmlns='http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul'
+>
+  <script type='application/x-javascript' src='moretools.js'></script>
+
+  <!-- Firefox, SeaMonkey -->
+  <menubar id='main-menubar'>
+    <menu
+      id='more-tools-menu'
+      insertafter='tools-menu, tasksMenu'
+      label='&moretools.label;'
+      accesskey='&moretools.accesskey;'
+    >
+      <menupopup id='more-tools-menupopup' onpopupshowing=''>
+        <menuitem
+          label='&moretools.createdby;'
+          disabled='true'
+          id='more-tools-label'
+        />
+        <menuseparator id='more-tools-sep' />
+      </menupopup>
+    </menu>
+  </menubar>
+
+  <!-- Thunderbird -->
+  <menubar id='mail-menubar'>
+    <menu
+      id='more-tools-menu'
+      insertafter='tasksMenu'
+      label='&moretools.label;'
+      accesskey='&moretools.accesskey;'
+    >
+      <menupopup id='more-tools-menupopup' onpopupshowing=''>
+        <menuitem
+          label='&moretools.createdby;'
+          disabled='true'
+          id='more-tools-label'
+        />
+        <menuseparator id='more-tools-sep' />
+      </menupopup>
+    </menu>
+  </menubar>
+
+  <!-- SeaMonkey -->
+  <menubar id='ab-menubar'>
+    <menu
+      id='more-tools-menu'
+      insertafter='tasksMenu'
+      label='&moretools.label;'
+      accesskey='&moretools.accesskey;'
+    >
+      <menupopup id='more-tools-menupopup' onpopupshowing=''>
+        <menuitem
+          label='&moretools.createdby;'
+          disabled='true'
+          id='more-tools-label'
+        />
+        <menuseparator id='more-tools-sep' />
+      </menupopup>
+    </menu>
+  </menubar>
+</overlay>

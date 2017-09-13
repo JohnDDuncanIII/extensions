@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://tabcount/locale/options.dtd">
+<prefwindow id="tabcounterPrefs"
+	    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	    title="&tab_counter_pref_win_title;" 
+	    xmlns:html="http://www.w3.org/1999/xhtml" 
+	    resizable="true"
+	    buttond=",">
+  <prefpane>
+    <preferences>
+      <preference id="status-bar-image" name="extensions.tabcounter.statusbarimage" type="bool" instantApply="true"/>
+    </preferences>
+    
+    <checkbox label="&tab_counter_image;" preference="status-bar-image"/>
+  </prefpane>
+</prefwindow>
