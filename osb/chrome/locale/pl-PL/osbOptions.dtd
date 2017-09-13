@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organize Status Bar - opcje">
+<!ENTITY osb.settings.osboptionsdesc "Dostosuj swój pasek stanu">
+<!ENTITY osb.settings.header "Status Bar IDs">
+<!ENTITY osb.settings.moveup "Przesuń w lewo">
+<!ENTITY osb.settings.movedown "Przesuń w prawo">
+<!ENTITY osb.settings.show "Wyświetl">
+<!ENTITY osb.settings.hide "Ukryj">
+<!ENTITY osb.settings.resetdefault "Przywróć domyślne">
+<!ENTITY osb.toolsmenuitem "Dostosuj pasek stanu...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

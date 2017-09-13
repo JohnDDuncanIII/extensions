@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Durum Çubuğu Düzenleme Seçenekleri">
+<!ENTITY osb.settings.osboptionsdesc "Durum çubuğunu düzenle">
+<!ENTITY osb.settings.header "Durum Çubuğu IDs">
+<!ENTITY osb.settings.moveup "Yukarı Taşı">
+<!ENTITY osb.settings.movedown "Aşağı Taşı">
+<!ENTITY osb.settings.show "Göster">
+<!ENTITY osb.settings.hide "Gizle">
+<!ENTITY osb.settings.resetdefault "Ön Tanımlı Ayarlara Geri Getir">
+<!ENTITY osb.toolsmenuitem "Durum çubuğunu düzenle..">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

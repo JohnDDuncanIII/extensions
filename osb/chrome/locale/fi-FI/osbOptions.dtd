@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Säädä Tilarivin Asetukset">
+<!ENTITY osb.settings.osboptionsdesc "Järjestä Tilarivi">
+<!ENTITY osb.settings.header "Tilarivin ID:t">
+<!ENTITY osb.settings.moveup "Siirrä Ylös">
+<!ENTITY osb.settings.movedown "Siirrä Alas">
+<!ENTITY osb.settings.show "Näytä">
+<!ENTITY osb.settings.hide "Piilota">
+<!ENTITY osb.settings.resetdefault "Aseta oletukset">
+<!ENTITY osb.toolsmenuitem "Järjestä Tilarivi...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

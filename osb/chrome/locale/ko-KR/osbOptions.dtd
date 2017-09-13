@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organize Status Bar 설정">
+<!ENTITY osb.settings.osboptionsdesc "상태 막대를 정리">
+<!ENTITY osb.settings.header "상태 막대 ID들">
+<!ENTITY osb.settings.moveup "위로 이동">
+<!ENTITY osb.settings.movedown "아래로 이동">
+<!ENTITY osb.settings.show "보이기">
+<!ENTITY osb.settings.hide "숨기기">
+<!ENTITY osb.settings.resetdefault "기본값으로 되돌리기">
+<!ENTITY osb.toolsmenuitem "상태 막대를 정리...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Настройки Organize Status Bar">
+<!ENTITY osb.settings.osboptionsdesc "Порядок значков на строке состояния">
+<!ENTITY osb.settings.header "Идентификаторы панелей состояния">
+<!ENTITY osb.settings.moveup "Вверх">
+<!ENTITY osb.settings.movedown "Вниз">
+<!ENTITY osb.settings.show "Показать">
+<!ENTITY osb.settings.hide "Скрыть">
+<!ENTITY osb.settings.resetdefault "Сбросить настройки">
+<!ENTITY osb.toolsmenuitem "Организация строки состояния...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

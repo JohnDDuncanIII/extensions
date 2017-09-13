@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://browser/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://osbrev/content/osb-main.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://osbrev/locale/osbOptions.dtd">
+
+<overlay id="osbOverlay"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:nc="http://home.netscape.com/NC-rdf#"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://osbrev/content/js/osb-main.js" />
+
+	<menupopup id="menu_ToolsPopup">
+		<menuitem id="osb_tools_menuitem" label="&osb.toolsmenuitem;" oncommand="objOSB.Options()" insertbefore="menu_preferences" />
+	</menupopup>
+
+	<stringbundleset id="stringbundleset">
+	  <stringbundle id="osb-string-bundle" src="chrome://osbrev/locale/osb.properties"/>
+	</stringbundleset>
+</overlay>
+

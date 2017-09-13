@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organize Status Bar 选项">
+<!ENTITY osb.settings.osboptionsdesc "组织您自己的状态栏">
+<!ENTITY osb.settings.header "状态栏 IDs">
+<!ENTITY osb.settings.moveup "上移">
+<!ENTITY osb.settings.movedown "下移">
+<!ENTITY osb.settings.show "显示">
+<!ENTITY osb.settings.hide "隐藏">
+<!ENTITY osb.settings.resetdefault "恢复默认状态">
+<!ENTITY osb.toolsmenuitem "组织状态栏">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

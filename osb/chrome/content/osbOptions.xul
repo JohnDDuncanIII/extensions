@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://osbrev/locale/osbOptions.dtd">
+
+<dialog id="osb-options-dialog"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	onload="objOSBOptions.Init();"
+	ondialogaccept="objOSBOptions.Update();"
+	ondialogcancel="objOSBOptions.Cancel();"
+	buttons="accept, cancel"
+	title="&osb.settings.title;">
+
+	<script type="application/x-javascript" src="chrome://osbrev/content/js/osb-options.js" />
+
+	<groupbox>
+		<caption label="&osb.settings.osboptionsbardesc;" />
+		<vbox align="top">
+			<checkbox id="obs-hidestatusbar" label="&osb.settings.hidestatusbar;" oncommand="objOSBOptions.HideStatusBar(this.checked)"/>
+		</vbox>
+	</groupbox>
+	<groupbox>
+		<caption label="&osb.settings.osboptionsdesc;" />
+		<hbox align="top">
+			<listbox id="orgstatusbar-list" rows="10" onselect="objOSBOptions.ToggleButtons()">
+				<listcols>
+					<listcol />
+				</listcols>
+			</listbox>
+			<vbox>
+				<button id="osb-moveup" label="&osb.settings.moveup;" oncommand="objOSBOptions.MoveUp()"/>
+				<button id="osb-movedown" label="&osb.settings.movedown;" oncommand="objOSBOptions.MoveDown()"/>
+				<separator />
+				<button id="osb-showitem" label="&osb.settings.show;" oncommand="objOSBOptions.ShowItem()" />
+				<button id="osb-hideitem" label="&osb.settings.hide;" oncommand="objOSBOptions.HideItem()" />
+				<separator />
+				<button label="&osb.settings.resetdefault;" oncommand="objOSBOptions.DefaultItemList()" />
+			</vbox>
+		</hbox>
+	</groupbox>
+</dialog>

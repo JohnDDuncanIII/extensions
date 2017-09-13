@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organize Status Bar 選項">
+<!ENTITY osb.settings.osboptionsdesc "目前狀態列上的排序：">
+<!ENTITY osb.settings.header "狀態列 IDs">
+<!ENTITY osb.settings.moveup "向上移動">
+<!ENTITY osb.settings.movedown "向下移動">
+<!ENTITY osb.settings.show "顯示">
+<!ENTITY osb.settings.hide "隱藏">
+<!ENTITY osb.settings.resetdefault "還原至預設值">
+<!ENTITY osb.toolsmenuitem "自訂狀態列">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

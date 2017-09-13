@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organize Status Bar Opties">
+<!ENTITY osb.settings.osboptionsdesc "Organiseer de statusbalk">
+<!ENTITY osb.settings.header "Statusbalk ID&apos;s">
+<!ENTITY osb.settings.moveup "Omhoog">
+<!ENTITY osb.settings.movedown "Omlaag">
+<!ENTITY osb.settings.show "Weergeven">
+<!ENTITY osb.settings.hide "Verbergen">
+<!ENTITY osb.settings.resetdefault "Standaardinstellingen herstellen">
+<!ENTITY osb.toolsmenuitem "Organiseer de statusbalk...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

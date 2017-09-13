@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Options de l'organisateur de la barre de statut">
+<!ENTITY osb.settings.osboptionsdesc "Organisez votre barre de statut">
+<!ENTITY osb.settings.header "IDs de la barre de statut">
+<!ENTITY osb.settings.moveup "Monter">
+<!ENTITY osb.settings.movedown "Descendre">
+<!ENTITY osb.settings.show "Exposer">
+<!ENTITY osb.settings.hide "Masquer">
+<!ENTITY osb.settings.resetdefault "Réinitialisation">
+<!ENTITY osb.toolsmenuitem "Organiser la barre de barre de statut...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

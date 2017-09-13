@@ -1,0 +1,48 @@
+/* Statusbar display */
+
+statusbar[osbconfig="true"] > statusbarpanel
+{
+	display: -moz-box !important;
+	-moz-appearance: none;
+	visibility: visible;
+}
+
+statusbar > *[osbselected="true"]
+{
+	-moz-appearance: none;
+	-moz-border-top-colors: red;
+	-moz-border-bottom-colors: red;
+	-moz-border-left-colors: red;
+	-moz-border-right-colors: red;
+	background-color: yellow;
+	visibility: visible;
+	display: -moz-box !important;
+}
+
+/* The following are required for Firefox 1.0 otherwise they won't display  */
+/* Firefox 1.5 or later doesn't have this problem and will ignore the last  */
+/* two entries.  The first will cause the icon to change temporarily, but   */
+/* does not harm anything so leave it in.                                   */
+
+statusbar[osbconfig="true"] > #page-report-button
+{
+	list-style-image: url("chrome://browser/skin/Info.png");
+}
+
+statusbar[osbconfig="true"] > #security-button
+{
+	-moz-image-region: rect(0px, 18px, 18px, 0px);
+	list-style-image: url("chrome://browser/skin/Secure.png");
+}
+
+statusbar[osbconfig="true"] > #livemark-button
+{
+	list-style-image: url("chrome://browser/skin/page-livemarks.png");
+}
+
+/*hide*/
+
+#status-bar[hide="true"]
+{
+	display: none;
+}

@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Opţiuni Organize Status Bar">
+<!ENTITY osb.settings.osboptionsdesc "Organizează bara de stare">
+<!ENTITY osb.settings.header "ID-uri în bara de stare">
+<!ENTITY osb.settings.moveup "Urcare">
+<!ENTITY osb.settings.movedown "Coborâre">
+<!ENTITY osb.settings.show "Arătare">
+<!ENTITY osb.settings.hide "Ascundere">
+<!ENTITY osb.settings.resetdefault "Refacere standard">
+<!ENTITY osb.toolsmenuitem "Organizează bara de stare...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

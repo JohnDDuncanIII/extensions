@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Налады Organize Status Bar">
+<!ENTITY osb.settings.osboptionsdesc "Парадак значкоў на радку стану">
+<!ENTITY osb.settings.header "Ідэнтыфікатары панэляў стану">
+<!ENTITY osb.settings.moveup "Уверх">
+<!ENTITY osb.settings.movedown "Уніз">
+<!ENTITY osb.settings.show "Паказаць">
+<!ENTITY osb.settings.hide "Схаваць">
+<!ENTITY osb.settings.resetdefault "Скінуць налады">
+<!ENTITY osb.toolsmenuitem "Арганізацыя радка стану...">
+<!ENTITY osb.settings.osboptionsbardesc "Налады на радку стану">
+<!ENTITY osb.settings.hidestatusbar "Схаваць на радку стану">

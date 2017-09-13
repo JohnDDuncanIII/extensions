@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organisér Statuslinie indstillinger">
+<!ENTITY osb.settings.osboptionsdesc "Organisér din statuslinie">
+<!ENTITY osb.settings.header "Statuslinie-ID&apos;er">
+<!ENTITY osb.settings.moveup "Flyt op">
+<!ENTITY osb.settings.movedown "Flyt ned">
+<!ENTITY osb.settings.show "Vis">
+<!ENTITY osb.settings.hide "Skjul">
+<!ENTITY osb.settings.resetdefault "Nulstil til standard">
+<!ENTITY osb.toolsmenuitem "Organisér statuslinie...">
+<!ENTITY osb.settings.osboptionsbardesc "Optioner statuslinie">
+<!ENTITY osb.settings.hidestatusbar "Skjul statuslinie">

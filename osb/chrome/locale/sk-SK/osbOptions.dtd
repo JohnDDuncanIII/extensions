@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Nastavenia Organize Status Bar">
+<!ENTITY osb.settings.osboptionsdesc "Upraviť stavový riadok">
+<!ENTITY osb.settings.header "ID stavového riadka">
+<!ENTITY osb.settings.moveup "Posunúť hore">
+<!ENTITY osb.settings.movedown "Posunúť dole">
+<!ENTITY osb.settings.show "Zobraziť">
+<!ENTITY osb.settings.hide "Skryť">
+<!ENTITY osb.settings.resetdefault "Pôvodné nastavenie">
+<!ENTITY osb.toolsmenuitem "Upraviť stavový riadok...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organize Status Bar опције">
+<!ENTITY osb.settings.osboptionsdesc "Организујте вашу статусну траку">
+<!ENTITY osb.settings.header "ID-и статусне траке">
+<!ENTITY osb.settings.moveup "Помери нагоре">
+<!ENTITY osb.settings.movedown "Помери надоле">
+<!ENTITY osb.settings.show "Прикажи">
+<!ENTITY osb.settings.hide "Сакриј">
+<!ENTITY osb.settings.resetdefault "Врати подразумевано">
+<!ENTITY osb.toolsmenuitem "Организуј статусну траку...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "אפשרויות Organize Status Bar">
+<!ENTITY osb.settings.osboptionsdesc "ארגן\י את שורת המצב שלך">
+<!ENTITY osb.settings.header "זהויות שורת מצב">
+<!ENTITY osb.settings.moveup "הזז מעלה">
+<!ENTITY osb.settings.movedown "הזז מטה">
+<!ENTITY osb.settings.show "הראה">
+<!ENTITY osb.settings.hide "החבא">
+<!ENTITY osb.settings.resetdefault "אפס לברירת מחדל">
+<!ENTITY osb.toolsmenuitem "...Organize status bar">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

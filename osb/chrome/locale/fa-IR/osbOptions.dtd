@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "تنظیمات - سازماندهی کردن نوار وضعیت">
+<!ENTITY osb.settings.osboptionsdesc "سازماندهی کردن نوار وضعیت شما">
+<!ENTITY osb.settings.header "شناسه نوار وضعیت">
+<!ENTITY osb.settings.moveup "حرکت به سمت بالا">
+<!ENTITY osb.settings.movedown "حرکت به سمت پایین">
+<!ENTITY osb.settings.show "نمایش دادن">
+<!ENTITY osb.settings.hide "پنهان کردن">
+<!ENTITY osb.settings.resetdefault "تمام تغییرات از بین برود">
+<!ENTITY osb.toolsmenuitem "سازماندهی نوار وضعیت ...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organize Status Bar Beállítások">
+<!ENTITY osb.settings.osboptionsdesc "Az Állapotsor átrendezése">
+<!ENTITY osb.settings.header "Állapotsor azonosítók">
+<!ENTITY osb.settings.moveup "Feljebb">
+<!ENTITY osb.settings.movedown "Lejjebb">
+<!ENTITY osb.settings.show "Megjelenítés">
+<!ENTITY osb.settings.hide "Elrejtés">
+<!ENTITY osb.settings.resetdefault "Eredeti visszaállítása">
+<!ENTITY osb.toolsmenuitem "Az Állapotsor átrendezése...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">

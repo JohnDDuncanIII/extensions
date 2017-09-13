@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>obsrev@alexancarlproject.net</em:id>
+		<em:name>Organize Status Bar (Revived)</em:name>
+		<em:description>Organize your status bar icons.</em:description>
+		<em:version>0.1.0</em:version>
+		<em:type>2</em:type>
+      <em:unpack>true</em:unpack>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>14.0</em:minVersion>
+				<em:maxVersion>53.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<!-- SeaMonkey -->
+		 <em:targetApplication>
+		   <Description>
+		   <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+		   <em:minVersion>2.0</em:minVersion>
+		   <em:maxVersion>2.50</em:maxVersion>
+		   </Description>
+		 </em:targetApplication>
+
+		<em:creator>y5. Revived for AlexancarlProject</em:creator>
+		<em:contributor>John D. Duncan, III</em:contributor>
+		<em:contributor>Morac</em:contributor>
+		<em:contributor>Lyandra Angel</em:contributor>
+		<em:contributor>Andrew O. Shadoura (be-BY)</em:contributor>
+		<em:contributor>el_libre (ca-AD)</em:contributor>
+		<em:contributor>The Zero (cs-CZ)</em:contributor>
+		<em:contributor>AlleyKat (da-DK)</em:contributor>
+		<em:contributor>Team erweiterungen.de, ReinekeFux (de-DE)</em:contributor>
+		<em:contributor>Ian Moody (en-GB)</em:contributor>
+		<em:contributor>acushnir (es-AR)</em:contributor>
+		<em:contributor>Urko and wife (es-ES)</em:contributor>
+		<em:contributor>navid (fa-IR)</em:contributor>
+		<em:contributor>Risse (fi-FI)</em:contributor>
+		<em:contributor>nokami (fr-FR)</em:contributor>
+		<em:contributor>siiie (he-IL)</em:contributor>
+		<em:contributor>Sil (hu-HU)</em:contributor>
+		<em:contributor>MatrixIsAllOver (it-IT)</em:contributor>
+		<em:contributor>l0stintranslation (it-IT)</em:contributor>
+		<em:contributor>matsuda1026 (ja-JP)</em:contributor>
+		<em:contributor>Flactal (ko-KR)</em:contributor>
+		<em:contributor>renegade06 (mk-MK)</em:contributor>
+		<em:contributor>Alf (nl-NL)</em:contributor>
+		<em:contributor>teo (pl-PL)</em:contributor>
+		<em:contributor>Teboga (pt-BR)</em:contributor>
+		<em:contributor>znaya (pt-PT)</em:contributor>
+		<em:contributor>dan.lungescu (ro-RO)</em:contributor>
+		<em:contributor>Quicksilver tears (ru-RU)</em:contributor>
+		<em:contributor>Jan Kendi (sk-SK)</em:contributor>
+		<em:contributor>kustodian (sr-RS)</em:contributor>
+		<em:contributor>kustodian (sr-Yu)</em:contributor>
+		<em:contributor>Gokhan (tr-TR)</em:contributor>
+		<em:contributor>Rick Cart (zh-CN)</em:contributor>
+		<em:contributor>Unicorn2 (zh-TW)</em:contributor>
+		<em:contributor>AlexancarlProject (Resurrector)</em:contributor>
+		<em:homepageURL>http://yellow5.us/firefox/osb/</em:homepageURL>
+		<em:optionsURL>chrome://osbrev/content/osbOptions.xul</em:optionsURL>
+	</Description>
+</RDF>

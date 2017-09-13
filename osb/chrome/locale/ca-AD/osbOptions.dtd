@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organitza les opcions de la Barra d&apos;Estat">
+<!ENTITY osb.settings.osboptionsdesc "Organitza la teva barra d&apos;estat">
+<!ENTITY osb.settings.header "ID&apos;s de la Barra d&apos;Estat">
+<!ENTITY osb.settings.moveup "Moure amunt">
+<!ENTITY osb.settings.movedown "Moure Avall">
+<!ENTITY osb.settings.show "Mostra">
+<!ENTITY osb.settings.hide "Amaga">
+<!ENTITY osb.settings.resetdefault "Reinicia per Defecte">
+<!ENTITY osb.toolsmenuitem "Organitza la barra d&apos;estat...">
+<!ENTITY osb.settings.osboptionsbardesc "Opcions de la barra d&apos;estat">
+<!ENTITY osb.settings.hidestatusbar "Amaga la barra d&apos;estat">

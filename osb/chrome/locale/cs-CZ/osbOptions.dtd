@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Možnosti Organize Status Bar">
+<!ENTITY osb.settings.osboptionsdesc "Uspořádejte si svůj stavový řádek">
+<!ENTITY osb.settings.header "ID položek ve stavovém řádku">
+<!ENTITY osb.settings.moveup "Nahoru">
+<!ENTITY osb.settings.movedown "Dolů">
+<!ENTITY osb.settings.show "Zobrazit">
+<!ENTITY osb.settings.hide "Skrýt">
+<!ENTITY osb.settings.resetdefault "Obnovit výchozí">
+<!ENTITY osb.toolsmenuitem "Uspořádat stavový řádek...">
+<!ENTITY osb.settings.osboptionsbardesc "Možnosti stavový řádek">
+<!ENTITY osb.settings.hidestatusbar "Skrýt stavový řádek">

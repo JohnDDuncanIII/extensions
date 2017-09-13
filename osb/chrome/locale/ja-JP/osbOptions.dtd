@@ -1,0 +1,11 @@
+<!ENTITY osb.settings.title "Organize Status Bar オプション">
+<!ENTITY osb.settings.osboptionsdesc "Organize your status bar">
+<!ENTITY osb.settings.header "ステータスバーのID">
+<!ENTITY osb.settings.moveup "上に移動">
+<!ENTITY osb.settings.movedown "下に移動">
+<!ENTITY osb.settings.show "表示">
+<!ENTITY osb.settings.hide "非表示">
+<!ENTITY osb.settings.resetdefault "初期状態に戻す">
+<!ENTITY osb.toolsmenuitem "Organize status bar...">
+<!ENTITY osb.settings.osboptionsbardesc "Status bar Options">
+<!ENTITY osb.settings.hidestatusbar "Hide status bar">
