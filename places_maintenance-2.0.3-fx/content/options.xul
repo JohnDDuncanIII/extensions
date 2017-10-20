@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<wizard id="placesMaintenanceWizard" title="Places maintenance"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        onwizardfinish="finish()">
+
+  <script type="application/javascript"
+          src="chrome://places-maintenance/content/options.js"/>
+
+  <wizardpage pageid="start"
+              onpageshow="start().catch(Components.utils.reportError)">
+    <description>
+      This add-on will help you checking if places.sqlite database is corrupt and
+      execute appropriate options to fix or clean it up.
+    </description>
+    <label value="Initial database statistics:"/>
+    <textbox id="initialStats" multiline="true" cols="40" rows="8"
+             readonly="true" value="Fetching stats..."/>
+  </wizardpage>
+
+  <wizardpage pageid="integrity"
+              onpageshow="integrity().catch(Components.utils.reportError)">
+    <description>Checking for database integrity. If the database is corrupt it may malfunction and should be replaced.</description>
+    <spacer flex="1"/>
+    <label value="Result of the integrity check:"/>
+    <textbox id="integrityResult" multiline="true" cols="40" rows="8"
+             readonly="true" value="Checking integrity..."/>
+  </wizardpage>
+
+  <wizardpage pageid="cleanup"
+              onpageshow="cleanup().catch(Components.utils.reportError)">
+    <description>Cleaning up the database by removing orphan entries and unused space.</description>
+    <spacer flex="1"/>
+    <label value="Clean-up result:"/>
+    <textbox id="cleanupResult" multiline="true" cols="40" rows="8"
+             readonly="true" value="Cleaning up..."/>
+  </wizardpage>
+
+  <wizardpage pageid="clone"
+              onpageshow="clone().catch(Components.utils.reportError)">
+    <description>Cloning the database to a new clean one.</description>
+    <spacer flex="1"/>
+    <label value="Database cloning result"/>
+    <textbox id="cloneResult" multiline="true" cols="40" rows="8"
+             readonly="true" value="Generating new database..."/>
+  </wizardpage>
+
+  <wizardpage pageid="end"
+              onpageshow="end().catch(Components.utils.reportError)">
+    <description>Maintenance is complete.</description>
+    <spacer flex="1"/>
+    <label value="Maintenance result:"/>
+    <textbox id="maintenanceResult" multiline="true" cols="40" rows="8"
+             readonly="true"/>
+  </wizardpage>
+
+</wizard>

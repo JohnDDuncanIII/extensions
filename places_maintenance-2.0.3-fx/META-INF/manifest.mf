@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: H58aPt3PU/vgCWBbqTzxoQ==
+SHA1-Digest: DIzwa3Apyn1jgXBbSr/QEF3Sdfg=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6KHVbBCvTJd/F7xU1szEZA==
+SHA1-Digest: i3XzS9xshW//rvryur7SsvOggnA=
+
+Name: bootstrap.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +3gfQkZyGr7h5EnIKnBwJg==
+SHA1-Digest: VQVKxzVWBi+dzvbejR6lu4pPFjk=
+
+Name: screen1.jpg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cvq3Nxc7yuLAsp7DZ1+CXw==
+SHA1-Digest: D63belIognPOZRx5NAGoWpOM8uY=
+
+Name: content/options.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3XO/bZXXAIgACH1kEvUUHg==
+SHA1-Digest: H1xEAX5DFa2xB6ctolHhV3e1bHo=
+
+Name: content/options.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Dzv1/egYbzlRsPuKVhbxtQ==
+SHA1-Digest: B7H6RU0Q0SvPmdmcOUnA62kweCg=
+

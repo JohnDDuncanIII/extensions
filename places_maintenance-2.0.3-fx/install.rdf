@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>places-maintenance@bonardo.net</em:id>
+    <em:version>2.0.3</em:version>
+    <em:bootstrap>true</em:bootstrap>
+
+    <em:name>Places Maintenance</em:name>
+    <em:creator>Marco Bonardo</em:creator>
+    <em:description>Allows to run maintenance tasks on the Places database, the bookmarks and history component behind Firefox.</em:description>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>38.0</em:minVersion>
+        <em:maxVersion>46.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- SeaMonkey -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>2.54</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:optionsURL>chrome://places-maintenance/content/options.xul</em:optionsURL>
+    <em:multiprocessCompatible>true</em:multiprocessCompatible>
+  </Description>
+</RDF>
