@@ -1,0 +1,6 @@
+<!ENTITY connectSql.reloadFunctions "Tab neu laden">
+<!ENTITY connectSql.closeTab "Tab schließen">
+<!ENTITY connectSql.cancel "Abbrechen">
+<!ENTITY connectSql.save "Speichern">
+<!ENTITY connectSql.sqlForAllDb "On-connect SQL statements for ALL database">
+<!ENTITY connectSql.sqlForThisDb "On-connect SQL statements for THIS database">

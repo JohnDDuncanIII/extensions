@@ -1,0 +1,55 @@
+<!ENTITY change "変更する">
+<!ENTITY useWithCaution "注意深く">
+<!ENTITY dbSettingsDesc "これらの設定は SQLite ライブラリの動作を変更します。">
+<!ENTITY versions "バージョン">
+<!ENTITY schema_version "スキーマバージョン">
+<!ENTITY user_version "ユーザーバージョン">
+<!ENTITY pages "ページ">
+<!ENTITY page_size "ページサイズ (バイト)">
+<!ENTITY max_page_count "最大ページ総数">
+<!ENTITY page_count "ページ数">
+<!ENTITY freelist_count "Freelist Count">
+<!ENTITY journals "Journals">
+<!ENTITY journal_mode "Journal Mode">
+<!ENTITY journal_size_limit "Journal Size Limit">
+<!ENTITY others "その他">
+<!ENTITY application_id "Application Id">
+<!ENTITY auto_vacuum "自動 Vacuum">
+<!ENTITY automatic_index "Automatic Indexing">
+<!ENTITY busy_timeout "Busy Timeout">
+<!ENTITY cache_size "キャッシュサイズ">
+<!ENTITY cache_spill "Cache Spill">
+<!ENTITY case_sensitive_like "Case-sensitive Like">
+<!ENTITY checkpoint_fullfsync "Checkpoint Fullfsync">
+<!ENTITY defer_foreign_keys "Defer Foreign Keys">
+<!ENTITY encoding "エンコーディング">
+<!ENTITY UTF8 "UTF-8">
+<!ENTITY UTF16 "UTF-16">
+<!ENTITY UTF16le "UTF-16le">
+<!ENTITY UTF16be "UTF-16be">
+<!ENTITY foreign_keys "Foreign Keys">
+<!ENTITY fullfsync "完全同期フラグ">
+<!ENTITY ignore_check_constraints "Ignore Check Constraints">
+<!ENTITY legacy_file_format "過去のファイル形式">
+<!ENTITY locking_mode "ロックモード">
+<!ENTITY mmap_size "Mmap Size">
+<!ENTITY query_only "Query Only">
+<!ENTITY read_uncommitted "未コミット読み取り">
+<!ENTITY recursive_triggers "Recursive Triggers">
+<!ENTITY reverse_unordered_selects "Reverse Unordered Selects">
+<!ENTITY secure_delete "Secure Delete">
+<!ENTITY soft_heap_limit "Soft Heap Limit">
+<!ENTITY synchronous "同期">
+<!ENTITY temp_store "一時的な記憶">
+<!ENTITY wal_autocheckpoint "Size (in no. of pages) of write-ahead log at which checkpoint will be run automatically">
+<!ENTITY writable_schema "Writable Schema">
+<!ENTITY On "オン">
+<!ENTITY Off "オフ">
+<!ENTITY Default "既定">
+<!ENTITY File "ファイル">
+<!ENTITY Memory "メモリ">
+<!ENTITY Normal "通常">
+<!ENTITY Exclusive "排他的">
+<!ENTITY Full "完全">
+<!ENTITY None "なし">
+<!ENTITY Incremental "付加的">

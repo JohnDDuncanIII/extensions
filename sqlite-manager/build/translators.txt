@@ -1,0 +1,16 @@
+beta|cs-CZ|Czech|DannyB.
+beta|da|Danish|team
+rel|de|German|Dryopteris,Team erweiterungen.de,Tobbi
+rel|es-ES|Spanish (Spain)|danyaljim
+rel|fr|French|Danny B.,Goofy,myahoo
+beta|hi-IN|Hindi|team
+rel|it|Italian|Mutu makassi
+rel|ja|Japanese|drry
+beta|pl|Polish|WacławJacek
+beta|pt-BR|Portuguese(Brazil)|AlbertoEidh
+rel|ru|Russian|Пирятинский Виталий
+rel|sv-SE|Swedish|Mikael Hiort af Ornäs
+beta|tr-TR|Turk|Celikbas
+beta|uk-UA|Ukrainian|staskond
+beta|zh-CN|Chinese|Cye3s
+beta|zh-TW|Chinese|Greener

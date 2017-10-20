@@ -1,0 +1,46 @@
+<!ENTITY tablename "Nom de la table:">
+<!ENTITY tablename.ak "N">
+<!ENTITY CSV "CSV">
+<!ENTITY SQL "SQL">
+<!ENTITY XML "XML">
+<!ENTITY csv.tableName "Entrez le nom de la table dans laquelle les données sont importées:">
+<!ENTITY Comma "Comma">
+<!ENTITY Comma.ak "C">
+<!ENTITY Semicolon "Point-virgule">
+<!ENTITY Pipe "Pipe (|)">
+<!ENTITY Tab "Tab">
+<!ENTITY csv.firstrow "Première rangée contient les noms de colonnes">
+<!ENTITY csv.separate "Champs séparés par">
+<!ENTITY csv.enclose "Champs limités par">
+<!ENTITY sql.settings "SQL Paramètres">
+<!ENTITY sql.create "Inclure instruction CREATE TABLE">
+<!ENTITY sql.transaction "BEGIN TRANSACTION/COMMIT doit être utilisé">
+<!ENTITY sql.transaction.desc "Si cette option est cochée, on considère que pour le fichier sélectionné, la première et la dernière déclaration sont respectivement BEGIN TRANSACTION et COMMIT. L'extension les ignorera et exécutera les autres déclarations en une seule passe. S'il existe des déclarations de transaction entre ces deux parties elles devront être supprimées manuellement du fichier avant son importation.">
+<!ENTITY xml.type "Include/Use Type as an attribute">
+<!ENTITY xml.type.desc "Uncheck this option if you are importing data which does not contain this attribute. It is recommended to use this feature if you intend to export data using SQLite Manager. The extra information can then be used during import to distinguish strings, nulls, integers, etc. from each other.">
+<!ENTITY importWizard "Assistant Importation">
+<!ENTITY eximDbName "Base de données:">
+<!ENTITY eximDbName.ak "d">
+<!ENTITY loading "(Chargement)">
+<!ENTITY eximFilename "Sélectionnez Fichier">
+<!ENTITY eximFilename.ak "S">
+<!ENTITY eximFileCharSet "Codage des caractères">
+<!ENTITY eximFileCharSet.ak "C">
+<!ENTITY eximCsv_encloser.doublequotes.standard "Les guillemets doubles (&quot;), si nécessaire (Standard)">
+<!ENTITY eximCsv_encloser.doublequotes.standard.ak "q">
+<!ENTITY eximCsv_encloser.doublequotes.always "Les guillemets doubles (&quot;), toujours">
+<!ENTITY eximCsv_encloser.doublequotes.likeExcel "Like MSExcel (double quotes if field contains &quot; or separator)">
+<!ENTITY eximCsv_encloser.singlequotes "Les guillemets simples (')">
+<!ENTITY eximCsv_encloser.none "Aucun">
+<!ENTITY eximCsv_encloser.other "Autres">
+<!ENTITY eximCsv-expSaveSetting "Enregistrer les paramètres d'exportation CSV">
+<!ENTITY eximCsv-expSaveSetting-tooltiptext "You can save these settings if you want 'Copy Rows as CSV' operations to use these settings.">
+<!ENTITY eximCsv-impSaveSetting "Enregistrer les paramètres d'importation CSV">
+<!ENTITY eximCsv-impSaveSetting-tooltiptext "Enregistrer les paramètres d'importation CSV">
+<!ENTITY eximCsv-expUseSetting "Utilisez les paramètres enregistrés">
+<!ENTITY eximCsv-impUseSetting "Utilisez les paramètres enregistrés">
+<!ENTITY eximXml_root-element "Nom de l'élément racine:">
+<!ENTITY eximXml_prefix-table-element "Préfixe ce tableau à l'élément:">
+<!ENTITY exim-exp-ok "OK">
+<!ENTITY exim-imp-ok "OK">
+<!ENTITY exim-cancel "Fermer l'Assistant">
